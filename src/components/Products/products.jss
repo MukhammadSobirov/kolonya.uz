@@ -58,15 +58,15 @@ export const useStyles = makeStyles((theme) => ({
     color: "#636363",
     [theme.breakpoints.down("sm")]:{
       width: "90%",
-      padding: '78% 0 0 5%'
+      padding: '75% 0 0 5%'
     },
     [theme.breakpoints.between("sm", 'md')]:{
       width: "90%",
-      padding: '57% 0 0 5%'
+      padding: '55% 0 0 5%'
     },
     [theme.breakpoints.only('md')]: {
       width: "50%",
-      padding: '18% 0 0 5%'
+      padding: '15% 0 0 5%'
     }
   },
   box_title: {

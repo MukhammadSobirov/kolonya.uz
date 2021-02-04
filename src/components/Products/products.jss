@@ -9,7 +9,7 @@ export const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     width: "99.09%",
     height: "100%",
-    backgroundColor: "ivory",
+    backgroundColor: "white",
     marginBottom: "2%",
   },
   first_div: {
@@ -58,15 +58,15 @@ export const useStyles = makeStyles((theme) => ({
     color: "#636363",
     [theme.breakpoints.down("sm")]:{
       width: "90%",
-      padding: '80% 0 0 5%'
+      padding: '78% 0 0 5%'
     },
     [theme.breakpoints.between("sm", 'md')]:{
       width: "90%",
-      padding: '60% 0 0 5%'
+      padding: '57% 0 0 5%'
     },
     [theme.breakpoints.only('md')]: {
       width: "50%",
-      padding: '20% 0 0 5%'
+      padding: '18% 0 0 5%'
     }
   },
   box_title: {

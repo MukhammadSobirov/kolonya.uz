@@ -13,8 +13,8 @@ const IndexPage = () => {
 
   const titleText =
     lang === "RUS"
-      ? "Kolonya — душистая вода покорившая всю Османскую империю и Европу."
-      : "Kolonya - butun Usmonli imperiyasi va Yevropani zabt etgan xushbo'y suvi.";
+      ? "Купить Kolonya в Узбекистане."
+      : "Kolonyani O'zbekistonda sotib oling.";
 
   const descriptionText =
     lang === "RUS"

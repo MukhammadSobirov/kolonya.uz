@@ -65,7 +65,7 @@ export const useStyles = makeStyles((theme) => ({
       padding: '55% 0 0 5%'
     },
     [theme.breakpoints.only('md')]: {
-      width: "50%",
+      width: "40%",
       padding: '15% 0 0 5%'
     }
   },

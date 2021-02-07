@@ -27,6 +27,7 @@ export const useStyles = makeStyles(theme => ({
     },
   
     title: {
+      fontFamily: 'serif' || 'Times',
       fontSize: "4.5em",
       fontWeight: '500',
       color: "ivory",
@@ -53,6 +54,7 @@ export const useStyles = makeStyles(theme => ({
     },
   
     subtitle: {
+      fontFamily: 'serif' || 'Times',
       fontSize: "2rem",
       color: "ivory",
       margin: "20px"

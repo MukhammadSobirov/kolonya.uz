@@ -15,6 +15,7 @@ export const useStyles = makeStyles(theme => ({
       
     },
     sectionTitle: {
+      fontFamily: 'serif' || 'Times',
       fontSize: "1.5rem",
       paddingTop: "60px",
       margin: 0,

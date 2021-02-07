@@ -96,14 +96,13 @@ export const useStyles = makeStyles((theme) => ({
   icon: {
     color: "#636363",
     fontSize: "2rem",
-    paddingLeft: '20px'
+    marginLeft: '5px',
+    "&:hover": {
+      color: '#633320',
+    }
   },
   btn: {
-    marginRight: "20px",
-    "&:hover": {
-      borderBottom: "solid 4px #ffe75e",
-      transitionDuration: '0.2s',
-    },
+    marginLeft: "50px",
   },
   label: {
     color: "#636363",

@@ -79,7 +79,7 @@ const Products = (props) => {
           </Grid>
           <Grid item md={3}>
             <p className={classes.brand_text}>{brandText}</p>
-            <a href="#" className={classes.btn}>
+            <a href="#" >
               <TelegramIcon className={classes.icon} />
             </a>
             <a href="#" className={classes.btn}>

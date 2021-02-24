@@ -25,7 +25,7 @@ const WhyKolonya = (props) => {
     props.lang === "RUS" ? "Лечебные Свойства" : "Shifolash Xususiyatlari";
   const SecondBoxTextSelf =
     props.lang === "RUS"
-      ? "Kolonya эффективна и в лечебных мерах, ведь помогает избавиться от головной боли, облегчает дыхание при насморке и расслабляет напряженные мышцы, если втереть несколько капель в ноющую от боли зону. Приведёт в чувство упавшего в обморок и продезинфицирует рану."
+      ? "Kolonya эффективна и в лечебных мерах, ведь помогает избавиться от головной боли, облегчает дыхание при насморке и расслабляет напряженные мышцы, если втереть несколько капель в ноющую от боли зону. Приведёт в чувство потерявшего сознание и продезинфицирует рану."
       : "Kolonya tibbiy maqsadlarda ham samaralidir, chunki u bosh og'rig'idan xalos bo'lishga yordam beradi, burun oqishi bilan nafas olishni osonlashtiradi va og'rigan joyga bir necha tomchi surtib qo'ysangiz, taranglashgan mushaklarni bo'shashtiradi. Hushidan ketgan odamni o'ziga keltiradi va yarani dezinfeksiya qiladi.";
   // third box
   const thirdBoxTitleText = props.lang === "RUS" ? "Традиция" : "An'ana";

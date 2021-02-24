@@ -11,6 +11,10 @@ import { useStyles } from "./products.jss";
 import logo from "../../images/logo.png";
 import { Grid } from "@material-ui/core";
 
+import b1m from '../../images/b1.png';
+import b2m from '../../images/b2.png';
+import b3m from '../../images/b3.png';
+
 const Products = (props) => {
   const classes = useStyles();
   const phoneLabelText = props.lang === "RUS" ? "Телефон" : "Telefon";
@@ -56,18 +60,21 @@ const Products = (props) => {
           <div className={classes.text_box_left}>
             <h3 className={classes.box_title}>{firstBoxTitleText}</h3>
             <p className={classes.box_paragraph}>{firstBoxTextSelf}</p>
+            <img src={b1m} alt='mosque' className={classes.onMobileDisplay}/>
           </div>
         </Fade>
         <Fade right>
           <div className={classes.text_box_right}>
             <h3 className={classes.box_title}>{secondBoxTitleText}</h3>
             <p className={classes.box_paragraph}>{secondBoxTextSelf}</p>
+            <img src={b2m} alt='lemon' className={classes.onMobileDisplay}/>
           </div>
         </Fade>
         <Fade left>
           <div className={classes.text_box_left_2}>
             <h3 className={classes.box_title}>{thirdBoxTitleText}</h3>
             <p className={classes.box_paragraph}>{thirdBoxTextSelf}</p>
+            <img src={b3m} alt='antiseptics' className={classes.onMobileDisplay}/>
           </div>
         </Fade>
       </div>
@@ -79,10 +86,10 @@ const Products = (props) => {
           </Grid>
           <Grid item md={3}>
             <p className={classes.brand_text}>{brandText}</p>
-            <a href="#" >
+            <a style={{marginLeft: '10px'}} href="https://web.telegram.org/#/im?p=@istanbulkolonyasi" >
               <TelegramIcon className={classes.icon} />
             </a>
-            <a href="#" className={classes.btn}>
+            <a href="https://www.instagram.com/istanbul_kolonyasi/" className={classes.btn}>
               <InstagramIcon className={classes.icon} />
             </a>
           </Grid>

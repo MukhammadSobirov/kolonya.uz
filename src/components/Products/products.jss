@@ -1,7 +1,6 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 import b1 from "../../images/back1.png";
-import b1m from "../../images/back1m.png";
 import cover from "../../images/foggy_birds.png";
 
 export const useStyles = makeStyles((theme) => ({
@@ -20,11 +19,8 @@ export const useStyles = makeStyles((theme) => ({
     width: "100%",
     backgroundRepeat: "no-repeat",
     [theme.breakpoints.down("sm")]: {
-      backgroundImage: `url(${b1m})`,
-      backgroundSize: "fit",
-      backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
-      height: '2000px'
+      background: "white",
+      height: '100%'
     },
   },
   text_box_left: {
@@ -44,7 +40,7 @@ export const useStyles = makeStyles((theme) => ({
     color: "#636363",
     [theme.breakpoints.down("sm")]:{
       width: "90%",
-      padding: '70% 0 0 5%'
+      padding: '10% 0 0 5%'
     },
     [theme.breakpoints.only('md')]: {
       width: "30%",
@@ -58,16 +54,25 @@ export const useStyles = makeStyles((theme) => ({
     color: "#636363",
     [theme.breakpoints.down("sm")]:{
       width: "90%",
-      padding: '75% 0 0 5%'
+      padding: '10% 0 0 5%'
     },
     [theme.breakpoints.between("sm", 'md')]:{
       width: "90%",
-      padding: '55% 0 0 5%'
+      padding: '10% 0 0 5%'
     },
     [theme.breakpoints.only('md')]: {
       width: "40%",
       padding: '15% 0 0 5%'
     }
+  },
+  // show divs on mobile
+  onMobileDisplay: {
+    display: 'none',
+    [theme.breakpoints.down("sm")]: {
+      display: 'inline',
+      width: '100%',
+      height: '100%'
+    },
   },
   box_title: {
     fontSize: "2.2em",

@@ -26,7 +26,7 @@ export const useStyles = makeStyles((theme) => ({
   text_box_left: {
     textAlign: "left",
     width: "400px",
-    padding: "100px 0 0 80px",
+    padding: "60px 0 0 80px",
     color: "#636363",
     [theme.breakpoints.down("sm")]: {
       width: "90%",
@@ -36,7 +36,7 @@ export const useStyles = makeStyles((theme) => ({
   text_box_right: {
     textAlign: "left",
     width: "400px",
-    padding: "20% 0 0 65%",
+    padding: "18% 0 0 65%",
     color: "#636363",
     [theme.breakpoints.down("sm")]: {
       width: "90%",
@@ -50,7 +50,7 @@ export const useStyles = makeStyles((theme) => ({
   text_box_left_2: {
     textAlign: "left",
     width: "400px",
-    padding: "20% 0 0 80px",
+    padding: "15% 0 0 80px",
     color: "#636363",
     [theme.breakpoints.down("sm")]: {
       width: "90%",

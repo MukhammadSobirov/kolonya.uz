@@ -20,7 +20,7 @@ export const useStyles = makeStyles((theme) => ({
     backgroundRepeat: "no-repeat",
     [theme.breakpoints.down("sm")]: {
       background: "white",
-      height: '100%'
+      height: "100%",
     },
   },
   text_box_left: {
@@ -28,9 +28,9 @@ export const useStyles = makeStyles((theme) => ({
     width: "400px",
     padding: "100px 0 0 80px",
     color: "#636363",
-    [theme.breakpoints.down("sm")]:{
+    [theme.breakpoints.down("sm")]: {
       width: "90%",
-      padding: '0.5% 0 0 5%'
+      padding: "0.5% 0 0 5%",
     },
   },
   text_box_right: {
@@ -38,40 +38,40 @@ export const useStyles = makeStyles((theme) => ({
     width: "400px",
     padding: "20% 0 0 65%",
     color: "#636363",
-    [theme.breakpoints.down("sm")]:{
+    [theme.breakpoints.down("sm")]: {
       width: "90%",
-      padding: '10% 0 0 5%'
+      padding: "10% 0 0 5%",
     },
-    [theme.breakpoints.only('md')]: {
+    [theme.breakpoints.only("md")]: {
       width: "30%",
-      padding: '20% 0 0 68%'
-    }
+      padding: "20% 0 0 68%",
+    },
   },
   text_box_left_2: {
     textAlign: "left",
     width: "400px",
     padding: "20% 0 0 80px",
     color: "#636363",
-    [theme.breakpoints.down("sm")]:{
+    [theme.breakpoints.down("sm")]: {
       width: "90%",
-      padding: '10% 0 0 5%'
+      padding: "10% 0 0 5%",
     },
-    [theme.breakpoints.between("sm", 'md')]:{
+    [theme.breakpoints.between("sm", "md")]: {
       width: "90%",
-      padding: '10% 0 0 5%'
+      padding: "10% 0 0 5%",
     },
-    [theme.breakpoints.only('md')]: {
+    [theme.breakpoints.only("md")]: {
       width: "40%",
-      padding: '15% 0 0 5%'
-    }
+      padding: "15% 0 0 5%",
+    },
   },
   // show divs on mobile
   onMobileDisplay: {
-    display: 'none',
+    display: "none",
     [theme.breakpoints.down("sm")]: {
-      display: 'inline',
-      width: '100%',
-      height: '100%'
+      display: "inline",
+      width: "100%",
+      height: "100%",
     },
   },
   box_title: {
@@ -87,7 +87,10 @@ export const useStyles = makeStyles((theme) => ({
   },
   logo: {
     width: "200px",
-    padding: "20px 0 10px 20px",
+    padding: "20px 0 10px 80px",
+    [theme.breakpoints.down("sm")]: {
+      padding: "20px 0 10px 20px",
+    },
   },
   brand_text: {
     fontSize: "1.25em",
@@ -95,16 +98,16 @@ export const useStyles = makeStyles((theme) => ({
     paddingTop: "30px",
     color: "#636363",
     [theme.breakpoints.down("sm")]: {
-      padding: '0 20px'
-    }
+      padding: "0 20px",
+    },
   },
   icon: {
     color: "#636363",
     fontSize: "2rem",
-    marginLeft: '5px',
+    marginLeft: "5px",
     "&:hover": {
-      color: '#633320',
-    }
+      color: "#1b1717",
+    },
   },
   btn: {
     marginLeft: "50px",
@@ -112,17 +115,26 @@ export const useStyles = makeStyles((theme) => ({
   label: {
     color: "#636363",
     paddingBottom: "10px",
-    paddingTop: '150px',
+    paddingTop: "150px",
     [theme.breakpoints.down("sm")]: {
-      padding: '40px 0 10px 30px'
-    }
+      padding: "40px 0 10px 30px",
+    },
   },
   input: {
     [theme.breakpoints.down("sm")]: {
-      padding: '0 0 10px 30px'
-    }
+      padding: "0 0 10px 30px",
+    },
   },
   formBox: {
-    paddingTop: '150px',
-  }
+    paddingTop: "150px",
+  },
+
+  infoConteiner: {
+    padding: "5px 0 0 80px",
+    color: "#636363",
+    lineHeight: "25px",
+    [theme.breakpoints.down("sm")]: {
+      padding: "0 0 10px 20px",
+    },
+  },
 }));

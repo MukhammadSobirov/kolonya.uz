@@ -2,18 +2,14 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import TelegramIcon from "@material-ui/icons/Telegram";
-import Input from "@material-ui/core/Input";
-import InputLabel from "@material-ui/core/InputLabel";
-import InputAdornment from "@material-ui/core/InputAdornment";
-import EmailIcon from "@material-ui/icons/Email";
 import CallIcon from "@material-ui/icons/Call";
 import { useStyles } from "./products.jss";
 import logo from "../../images/logo.png";
 import { Grid } from "@material-ui/core";
 
-import b1m from '../../images/b1.png';
-import b2m from '../../images/b2.png';
-import b3m from '../../images/b3.png';
+import b1m from "../../images/b1.png";
+import b2m from "../../images/b2.png";
+import b3m from "../../images/b3.png";
 
 const Products = (props) => {
   const classes = useStyles();
@@ -60,21 +56,25 @@ const Products = (props) => {
           <div className={classes.text_box_left}>
             <h3 className={classes.box_title}>{firstBoxTitleText}</h3>
             <p className={classes.box_paragraph}>{firstBoxTextSelf}</p>
-            <img src={b1m} alt='mosque' className={classes.onMobileDisplay}/>
+            <img src={b1m} alt="mosque" className={classes.onMobileDisplay} />
           </div>
         </Fade>
         <Fade right>
           <div className={classes.text_box_right}>
             <h3 className={classes.box_title}>{secondBoxTitleText}</h3>
             <p className={classes.box_paragraph}>{secondBoxTextSelf}</p>
-            <img src={b2m} alt='lemon' className={classes.onMobileDisplay}/>
+            <img src={b2m} alt="lemon" className={classes.onMobileDisplay} />
           </div>
         </Fade>
         <Fade left>
           <div className={classes.text_box_left_2}>
             <h3 className={classes.box_title}>{thirdBoxTitleText}</h3>
             <p className={classes.box_paragraph}>{thirdBoxTextSelf}</p>
-            <img src={b3m} alt='antiseptics' className={classes.onMobileDisplay}/>
+            <img
+              src={b3m}
+              alt="antiseptics"
+              className={classes.onMobileDisplay}
+            />
           </div>
         </Fade>
       </div>
@@ -86,63 +86,42 @@ const Products = (props) => {
           </Grid>
           <Grid item md={3}>
             <p className={classes.brand_text}>{brandText}</p>
-            <a style={{marginLeft: '10px'}} href="https://web.telegram.org/#/im?p=@istanbulkolonyasi" >
+            <a
+              style={{ marginLeft: "10px" }}
+              href="https://web.telegram.org/#/im?p=@istanbulkolonyasi"
+              target="_blank"
+            >
               <TelegramIcon className={classes.icon} />
             </a>
-            <a href="https://www.instagram.com/istanbul_kolonyasi/" className={classes.btn}>
+            <a
+              href="https://www.instagram.com/istanbulkolonyasi/"
+              target="_blank"
+              className={classes.btn}
+            >
               <InstagramIcon className={classes.icon} />
+            </a>
+            <a
+              href="tel:+998-90-505-01-55"
+              target="_blank"
+              className={classes.btn}
+            >
+              <CallIcon className={classes.icon} />
             </a>
           </Grid>
 
-          <Grid item xs={12} sm={3}>
-            <InputLabel
-              htmlFor="input-with-icon-adornment"
-              className={classes.label}
-            >
-              {phoneLabelText}
-            </InputLabel>
-            <Input
-              color="secondary"
-              className={classes.input}
-              value="(+998) 90 505-01-55"
-              disabled
-              id="input-with-icon-adornment"
-              startAdornment={
-                <InputAdornment position="start">
-                  <CallIcon />
-                </InputAdornment>
-              }
-            />
-          </Grid>
+          {/* <Grid item xs={12} sm={3}>
+            <p><CallIcon style={{padding: '10px 0 0 0'}} /> (+998) 90 505-01-55</p>
+          </Grid> */}
 
-          <Grid item xs={12} sm={3} className={classes.formBox}>
-            <InputLabel
-              htmlFor="input-with-icon-adornment"
-              className={classes.label}
-            >
-              {emailLabelText}
-            </InputLabel>
-            <Input
-              className={classes.input}
-              value="contact@kolonya.uz"
-              disabled
-              id="input-with-icon-adornment"
-              startAdornment={
-                <InputAdornment position="start">
-                  <EmailIcon />
-                </InputAdornment>
-              }
-            />
-          </Grid>
-          <Grid
-            item
-            xs={12}
-            sm={12}
-            style={{ padding: "5px 0 0 30px", color: "#636363", lineHeight: '25px' }}
-          >
-            <p>{addressText} </p>
-            <p>Copyright © 2020 Kolonya </p>
-            <p>All Rights Reserved</p>
+          <Grid item xs={12} sm={12} className={classes.infoConteiner}>
+            {" "}
+            <div className={classes.infoConteiner}>
+              <p>
+                {addressText} <br /> Tel: (+998) 90 505-01-55
+              </p>
+              <p>Copyright © 2020 Kolonya </p>
+              <p>All Rights Reserved</p>
+            </div>
           </Grid>
         </Grid>
       </div>

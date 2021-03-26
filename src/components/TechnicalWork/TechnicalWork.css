@@ -1,0 +1,49 @@
+#tech-work-animation{
+    width: 50%;
+    margin: 10px auto;
+}
+
+.tech-work-container{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    color: rgb(51, 51, 51);
+}
+
+.tech-work-container h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.tech-work-container h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.tech-work-container a {
+    color: rgb(51, 51, 51);
+}
+
+@media only screen and (max-width: 600px) {
+    #tech-work-animation{
+        width: 100%;
+    }
+
+    .tech-work-container{
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        color: rgb(51, 51, 51);
+    }
+    
+    .tech-work-container h1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    
+    .tech-work-container h2 {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+}
+

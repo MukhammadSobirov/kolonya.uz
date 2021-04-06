@@ -1,0 +1,35 @@
+.container-hero{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('../../../images/HeroBg.png');
+    background-size: cover;
+    text-align: center;
+}
+
+.text-box-hero{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 160px 0;
+}
+
+.title-hero{
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100px;
+    letter-spacing: 0.03em;
+    margin: 0;
+    padding: 0;
+}
+
+.paragraph-hero{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    letter-spacing: 7%;
+    line-height: 38px;
+}

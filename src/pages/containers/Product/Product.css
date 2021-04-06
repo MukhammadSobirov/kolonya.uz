@@ -1,0 +1,39 @@
+.container-product{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #26362B;
+}
+
+.content-box-product{
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+    margin: 0 20%;
+}
+
+.img-product{
+    margin-right: 50px;
+}
+
+.text-box-product{
+    text-align: start;
+    width: 512px;
+}
+
+.title-product{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+    letter-spacing: 0.07em;
+    font-weight: 400;
+    color: #E5E5E5;
+}
+
+.paragraph-product{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    letter-spacing: 0.07em;
+    font-weight: 400;
+    color: #E5E5E5;
+    line-height: 25px;
+}

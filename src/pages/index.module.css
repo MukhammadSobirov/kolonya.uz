@@ -1,18 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond&family=Lobster&display=swap");
+
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    font-family: Arial, Helvetica;
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Arial, Helvetica;
+  background-color: #26362B;
 }
 
 .main_section {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }

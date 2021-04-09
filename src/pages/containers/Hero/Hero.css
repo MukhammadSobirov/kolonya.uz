@@ -78,6 +78,19 @@
 
 /* Tablet responsive */
 
-/* @media only screen and (max-width: 1024px) {
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    .container-hero{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: url('../../../images/HeroBg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+    }
     
-} */
+}

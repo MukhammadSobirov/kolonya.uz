@@ -52,7 +52,7 @@
         display: flex;
         justify-content: center;
         padding: 2.5% 0;
-        margin: 0 10% 20px 10%;
+        margin: 0 10%;
         width: 320px;
     }
     
@@ -83,5 +83,18 @@
         font-weight: 400;
         color: #E5E5E5;
         line-height: 22px;
+    }
+}
+
+/* Tablet responsive */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    .img-product{
+        margin-right: 50px;
+        margin-top: 50px;
+        width: 100px;
+        height: 200px;
     }
 }

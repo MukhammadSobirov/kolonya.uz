@@ -9,7 +9,7 @@ body {
   padding: 0;
   width: 100%;
   font-family: Arial, Helvetica;
-  background-color: #26362B;
+  background-color: #26362b;
 }
 
 .main_section {
@@ -18,4 +18,14 @@ body {
   text-align: center;
   padding: 0;
   margin: 0;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica;
+    background-color: black;
+  }
 }

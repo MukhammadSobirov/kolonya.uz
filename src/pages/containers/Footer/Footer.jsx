@@ -1,24 +1,50 @@
 import React from "react";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import TelegramIcon from "@material-ui/icons/Telegram";
 
 import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="container-footer">
+    <div className="container-footer" id="Contacts">
       <div className="content-footer">
         <div className="text-box-footer">
           <h3 className="title-footer">СВЯЖИТЕСЬ С НАМИ</h3>
-          <p className="address-footer">
-            Республика Узбекистан, город Самарканд, Юкори Хужа-соат, дом №53.
-          </p>
-          <p>
-            <a href="mailto:kolonya@gmail.com" className="link-footer">
+          <p className="p-contacts">
+            Пишите {" "}
+            <a
+              href="mailto:kolonya@gmail.com"
+              className="link-footer"
+              target="_blank"
+              rel="noreferrer"
+            >
               kolonya@gmail.com
             </a>
           </p>
-          <p>
+          <p className="p-contacts">
+            Звоните {" "}
             <a href="tel:(+998) 90 505-01-55" className="link-footer">
               (+998) 90 505-01-55
+            </a>
+          </p>
+          <p className="p-contacts">
+            <a
+              href="https://www.instagram.com/istanbulkolonyasi/"
+              target="_blank"
+              rel="noreferrer"
+              className="link-footer"
+            >
+              <InstagramIcon /> istanbulkolonyasi
+            </a>
+          </p>
+          <p className="p-contacts">
+            <a
+              href="https://web.telegram.org/#/im?p=@istanbulkolonyasi"
+              target="_blank"
+              rel="noreferrer"
+              className="link-footer"
+            >
+              <TelegramIcon /> @istanbulkolonyasi
             </a>
           </p>
         </div>

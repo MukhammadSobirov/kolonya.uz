@@ -27,10 +27,10 @@
     border-radius: 25px;
     color: white;
     font-family: "Cormorant Garamond", serif;
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 0.02em;
     font-weight: 400;
-    padding: 8px;
+    padding: 10px;
     cursor: pointer;
     animation: blick 5s linear infinite both;
   }

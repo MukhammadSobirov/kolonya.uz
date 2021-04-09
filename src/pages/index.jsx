@@ -10,7 +10,6 @@ import Hero from "./containers/Hero/Hero";
 import History from "./containers/History/History";
 import Product from "./containers/Product/Product";
 import About from "./containers/About/About";
-import Contact from "./containers/Contact/Contact";
 import Footer from "./containers/Footer/Footer";
 import Nav from "../components/Nav/Nav";
 
@@ -32,7 +31,6 @@ const IndexPage = () => {
       <History />
       <Product />
       <About />
-      <Contact />
       <Footer />
     </section>
   );

@@ -61,6 +61,14 @@
     padding-top: 40px;
 }
 
+.p-contacts{
+    color: #d4b518;
+}
+
+.p-contacts a {
+    padding-bottom: 10px;
+}
+
 /* Mobile responsive */
 
 @media only screen and (max-width: 600px) {
@@ -74,12 +82,13 @@
     
     .content-footer{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 100%;
     }
     
     .text-box-footer{
         text-align: start;
-        padding: 10px 25px;
+        padding: 10px 20px;
+        z-index: 20;
     }
     
     .title-footer{
@@ -124,7 +133,9 @@
     
     .img-footer{
         width: 180px;
-        padding-top: 40px;
+        padding: 40px 10px 0 150px;
+        position: absolute;
+        z-index: 1;
     }
 }
 

@@ -26,6 +26,7 @@ const Nav = () => {
             href="https://www.instagram.com/istanbulkolonyasi/"
             target="_blank"
             className="nav-link"
+            rel="noreferrer"
           >
             <InstagramIcon />
           </a>
@@ -35,6 +36,7 @@ const Nav = () => {
             href="https://web.telegram.org/#/im?p=@istanbulkolonyasi"
             target="_blank"
             className="nav-link"
+            rel="noreferrer"
           >
             <TelegramIcon />
           </a>

@@ -3,9 +3,12 @@ import PropTypes from "prop-types";
 import "./Button.css";
 
 const Button = (props) => {
-  const { text, action } = props;
+  const { text } = props;
+  const handleClick = () => {
+    window.location.href = "#Contacts";
+  };
   return (
-    <button className="btn" onClick={action}>
+    <button onClick={handleClick} className="btn" >
       {text}
     </button>
   );
@@ -13,7 +16,6 @@ const Button = (props) => {
 
 Button.prototype = {
   text: PropTypes.string,
-  action: PropTypes.func,
 };
 
 export default Button;

@@ -21,8 +21,8 @@ const IndexPage = () => {
         <meta charSet="utf-8" />
         <title>Istanbul Kolonyasi</title>
         <meta property="og:url" content="https://www.kolonya.uz/" />
-        <meta property="og:title" content='' />
-        <meta property="og:description" content='' />
+        <meta property="og:title" content='Купить Kolonya в Узбекистане' />
+        <meta property="og:description" content='Душастая вода с антисептическими свойствами для вас и ваших родных. Избавляет от головной боли и придает бодрость на целый день.' />
         <meta property="og:image" content={logo} />
       </Helmet>
       {/* <TechnicalWork /> */}

@@ -33,3 +33,51 @@
     letter-spacing: 7%;
     line-height: 38px;
 }
+
+/* Mobile responsive */
+
+@media only screen and (max-width: 600px) {
+    .container-hero{
+        height: 80vh;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: url('../../../images/HeroBg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+    }
+    
+    .text-box-hero{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 200px 0;
+    }
+    
+    .title-hero{
+        color: white;
+        font-family: 'Cinzel', serif;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 45px;
+        letter-spacing: 0.03em;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .paragraph-hero{
+        color: white;
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+        letter-spacing: 7%;
+        line-height: 25px;
+    }
+}
+
+/* Tablet responsive */
+
+/* @media only screen and (max-width: 1024px) {
+    
+} */

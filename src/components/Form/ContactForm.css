@@ -39,3 +39,49 @@ textarea{
 input:focus, textarea:focus{
     border-bottom: 3px solid #e9c61b;
 }
+
+/* Mobile responsive */
+
+@media only screen and (max-width: 600px) {
+    .form-contact{
+        display: grid;
+        margin: 0 10%;
+        padding-top: 1%;
+    }
+    
+    .input-div{
+        margin: 10px 0;
+    }
+    
+    input {
+        width: 250px;
+        height: 30px;
+        background-color: rgba(255, 255, 255, 0.800);
+        border: none;
+        outline: none;
+        padding: 5px;
+        font-size: 18px;
+        color: #49524E;
+        font-family: "Cormorant Garamond", serif;
+        font-weight: 500;
+        letter-spacing: 0.03em;
+    }
+    
+    textarea{
+        width: 250px;
+        height: 60px;
+        background-color: rgba(255, 255, 255, 0.800);
+        border: none;
+        outline: none;
+        padding: 10px;
+        font-size: 18px;
+        color: #49524E;
+        font-family: "Cormorant Garamond", serif;
+        font-weight: 500;
+        letter-spacing: 0.03em;
+    }
+    
+    input:focus, textarea:focus{
+        border-bottom: 3px solid #e9c61b;
+    }
+}

@@ -37,3 +37,51 @@
     color: #E5E5E5;
     line-height: 25px;
 }
+
+/* Mobile responsive */
+
+@media only screen and (max-width: 600px) {
+    .container-product{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #26362B;
+    }
+    
+    .content-box-product{
+        display: flex;
+        justify-content: center;
+        padding: 2.5% 0;
+        margin: 0 10% 20px 10%;
+        width: 320px;
+    }
+    
+    .img-product{
+        margin-right: 25px;
+        margin-top: 50px;
+        width: 150px;
+        height: 200px;
+    }
+    
+    .text-box-product{
+        text-align: start;
+        width: 225px;
+    }
+    
+    .title-product{
+        font-family: "Cormorant Garamond", serif;
+        font-size: 25px;
+        letter-spacing: 0.03em;
+        font-weight: 400;
+        color: #E5E5E5;
+    }
+    
+    .paragraph-product{
+        font-family: "Cormorant Garamond", serif;
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        font-weight: 400;
+        color: #E5E5E5;
+        line-height: 22px;
+    }
+}

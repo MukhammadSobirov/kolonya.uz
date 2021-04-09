@@ -73,3 +73,95 @@
     background-image: url(../../../images/lemonDivider.png);
     background-size: cover;
 }
+
+.pattern-mobile{
+  display: none;
+}
+
+/* Mobile responsive */
+@media only screen and (max-width: 600px) {
+  .container-history {
+    background-color: #1c2723;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .text-box-history {
+    width: 100%;
+    margin: 0;
+    padding: 35px 0;
+  }
+  
+  .title-history {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .paragraph-history {
+    font-family: "Cormorant Garamond", serif;
+    color: #bdb7a9;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    margin: 0;
+    padding-top: 10px;
+  }
+  
+  .paragraph-secondary-history {
+    font-family: "Lobster", cursive;
+    color: #a6a396;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    margin: 5px 0;
+  }
+  
+  .image-box-history {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  
+  .brand-logo-history {
+    width: 105px;
+    height: 138px;
+    margin: 0 15px;
+  }
+  
+  .img-history {
+    border-radius: 50%;
+    border: 2px solid #bdb7a9;
+    width: 100px;
+  }
+  
+  .img-title-history {
+    font-family: "Lobster", cursive;
+    font-size: 18px;
+    color: #bdb7a9;
+    letter-spacing: 0.03em;
+  }
+  
+  .divider-history{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 90px;
+      background-image: url(../../../images/lemonDivider.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+  }
+  .pattern-mobile{
+    display: inline;
+  }
+
+  .pattern-wide-screen{
+    display: none;
+  }
+}

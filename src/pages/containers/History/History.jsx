@@ -6,6 +6,7 @@ import logo from "../../../images/logo.png";
 import roman from "../../../images/roman.jpg";
 import pattern1 from "../../../images/pattern1.svg";
 import pattern2 from "../../../images/pattern2.svg";
+import pattern3 from "../../../images/pattern3.svg";
 
 const History = () => {
   return (
@@ -14,14 +15,15 @@ const History = () => {
         <h2 className="title-history">
           <span>
             {" "}
-            <img src={pattern1} alt='pattern'/>{" "}
+            <img  className="pattern-wide-screen" src={pattern1} alt='pattern'/>{" "}
           </span>{" "}
           НАША ИСТОРИЯ{" "}
           <span>
             {" "}
-            <img src={pattern2} alt='pattern'/>{" "}
+            <img className="pattern-wide-screen" src={pattern2} alt='pattern'/>{" "}
           </span>
         </h2>
+        <img className="pattern-mobile" src={pattern3} alt='pattern'/>{" "}
         <p className="paragraph-history">
           берет свое начало со времен великих империй
         </p>

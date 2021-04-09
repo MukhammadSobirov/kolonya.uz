@@ -12,6 +12,7 @@ import Product from "./containers/Product/Product";
 import About from "./containers/About/About";
 import Contact from "./containers/Contact/Contact";
 import Footer from "./containers/Footer/Footer";
+import Nav from "../components/Nav/Nav";
 
 const IndexPage = () => {
 
@@ -26,6 +27,7 @@ const IndexPage = () => {
         <meta property="og:image" content={logo} />
       </Helmet>
       {/* <TechnicalWork /> */}
+      <Nav />
       <Hero />
       <History />
       <Product />

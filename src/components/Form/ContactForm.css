@@ -1,7 +1,7 @@
 .form-contact{
     display: grid;
     margin: 0 20%;
-    padding-top: 5%;
+    padding-top: 1%;
 }
 
 .input-div{
@@ -15,8 +15,11 @@ input {
     border: none;
     outline: none;
     padding: 10px;
-    font-size: 20px;
+    font-size: 22px;
     color: #49524E;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    letter-spacing: 0.07em;
 }
 
 textarea{
@@ -26,8 +29,11 @@ textarea{
     border: none;
     outline: none;
     padding: 10px;
-    font-size: 20px;
+    font-size: 22px;
     color: #49524E;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    letter-spacing: 0.07em;
 }
 
 input:focus, textarea:focus{

@@ -1,0 +1,26 @@
+nav{
+    text-align: start;
+    width: fit-content;
+    margin-left: 90vw;
+    top: 200px;
+    position: fixed;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 20px 0;
+}
+
+.nav-link{
+    color: white;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: #e9c61b;
+    transition-duration: 0.3s;
+}
+

@@ -4,7 +4,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="container-hero">
+    <div className="container-hero" id='Home'>
       <div className='text-box-hero'>
         <h1 className="title-hero">ISTANBUL <br/> KOLONYASI</h1>
         <p className="paragraph-hero">

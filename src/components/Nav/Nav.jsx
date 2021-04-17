@@ -41,9 +41,9 @@ const Nav = () => {
             <TelegramIcon />
           </a>
         </li>
-        <li>
+        {/* <li>
             <p className="nav-link"><PublicIcon /><br />RU</p>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

@@ -11,7 +11,6 @@ const Footer = () => {
         <div className="text-box-footer">
           <h3 className="title-footer">СВЯЖИТЕСЬ С НАМИ</h3>
           <p className="p-contacts">
-            Пишите {" "}
             <a
               href="mailto:kolonya@gmail.com"
               className="link-footer"
@@ -22,7 +21,6 @@ const Footer = () => {
             </a>
           </p>
           <p className="p-contacts">
-            Звоните {" "}
             <a href="tel:(+998) 90 505-01-55" className="link-footer">
               (+998) 90 505-01-55
             </a>

@@ -6,7 +6,7 @@
 <h1 align="center">
   Gatsby minimal starter
 </h1>
-
+deploy
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
